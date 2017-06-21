@@ -1,0 +1,46 @@
+<app-navbar></app-navbar>
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="features1-9" style="background-color: rgb(193, 193, 193); height: -webkit-fill-available;">
+    <br><br><br><br><br><br><br>
+
+    <div class="panel panel-primary" style="width: 30%; margin-left: 35em;" align="center">
+        <div class="panel-heading" align="center">
+        LOGIN
+        </div>
+                            <!--<form action="../../login.html" method="" data-form-title="LOGIN/REGISTER">
+                            <input type="hidden" value="vHmriqlWJBsmMfqGShP63e+UI4CCZ7vnJai36FuGmn9lrkg0v2krwr5AJqf2Cv8N/9iNB/1UOrKmqWP4XzeysnVJ9/7EUNj4d5HdhoDaodP63Jx7VEtCsTJ2jbcGpYQw" data-form-email="true">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" required="" placeholder="Username*" data-form-field="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="pass" class="form-control" name="pass" required="" placeholder="Password*" data-form-field="Password">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                            </div>
+                           
+                            <div class="mbr-buttons mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">LOGIN</button></div>
+                        </form>-->
+    <form (submit)="loginUser($event)">
+        <div class="input">
+            <input type="text" class="form-control" name="username" required="" placeholder="Username*" data-form-field="Username">
+        </div>
+        <div class="input">
+            <input type="pass" class="form-control" name="pass" required="" placeholder="Password*" data-form-field="Password">
+        </div>
+        <br>
+        <div class="button">
+            <input type="submit" value="Login">
+            <a routerLink="/register" class="btn btn-link">Register</a>
+        </div>
+        
+    </form>
+
+</div>
+
+    <!--<button (submit)="loginUser()">-->
+
+</section>
+
+
+
+
